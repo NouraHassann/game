@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Comfortaa", serif;
+    background-color: #272b30;
+}
+
+button{
+    border: none;
+}
+
+header img{
+    height: 25vh;
+    -o-object-fit:cover ;
+       -o-object-fit: cover;
+          object-fit: cover;
+}
+
+.navbar-brand{
+    cursor: text;
+}
+
+nav{
+    
+    background-color: rgb(58, 73, 123) !important;
+    box-shadow: #0009 1px 2px 12px;
+    border-radius: 15px;
+    margin-inline:50px ;
+}
+
+nav img{
+    width: 40px;
+}
+
+li{
+    font-size: 11px;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: var(--bs-white);
+    --bs-nav-link-hover-color:#09c;
+    /* transition: color 500ms; */
+}
+
+.navbar-nav .active{
+    color: #09c !important;
+}
+
+/* ********************************************** */
+.card{
+    transition: transform 500ms;
+    background-color: #272b30;
+    border: solid 1px rgba(31, 29, 29,.5) ;
+    color:rgb(230, 227, 227);
+    cursor: pointer;
+    /* height: 350px; */
+}
+
+.card:hover{
+    transform: scale(1.04);
+
+}
+
+
+.card p{
+    color: gray;
+}
+
+.foot-card{
+    border-top: solid 1px rgba(31, 29, 29,.5);
+    /* height: 60px; */
+}
+   
+
+.card span{
+    background-color:#fff2;
+    padding-inline: 5px;
+    font-size:10px;
+    padding-block: 1px;
+
+}
+
+.image {
+    -webkit-filter: grayscale(50%);
+            filter: grayscale(50%);
+            transition: filter 500ms, -webkit-filter 500ms;
+  }
+
+
+.card:hover .image {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+}
+
+.description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+            line-clamp:3; 
+    -webkit-box-orient: vertical;
+ 
+}
+
+#details span{
+    background-color:#0dcaf0 ;
+    color: black;
+    padding-inline: 5px;
+}
+
+#details button{
+    background-color:transparent;
+    border:#ffc107 1px solid;
+}
+
+#details i{
+    color: gray;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#details i:hover{
+    color:rgb(179, 176, 176) ;
+}
+
+#details h1 , h2{
+    font-family: "Nerko One", cursive;
+    font-weight: 100;
+}
+
+/***********************************/
+/* From Uiverse.io by Leoodaviid */ 
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #272b30e3;
+    z-index: 9999999999999;
+  }
+  
+  .loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% {
+      transform: rotate(0deg);
+      box-shadow: 0 -1px 0 rgba(251, 124, 19);
+    }
+  
+    50% {
+      transform: rotate(180deg);
+      box-shadow: 0 -1px 0 rgba(251, 124, 19);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      box-shadow: 0 -1px 0 rgba(251, 124, 19);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+      box-shadow: 0 -1px 0 rgba(251, 124, 19);
+    }
+  
+    50% {
+      transform: rotate(180deg);
+      box-shadow: 0 -1px 0 rgba(251, 124, 19);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      box-shadow: 0 -1px 0 rgba(251, 124, 19);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
