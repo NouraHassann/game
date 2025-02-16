@@ -12,7 +12,7 @@ export class Ui{
        
         cartoon+=`
         <div class="col-xl-3 col-lg-4 col-md-6">
-             <div data-id="${data[i].id}" class="card rounded-2 p-0 h-100">
+             <div data-id="${data[i].id}" class="card rounded-2 p-0 h-100 d-flex justify-content-between">
                <div class="p-3">
                  <img src=${data[i].thumbnail} class="image w-100 rounded-top-2 mb-2"/>
                  
@@ -24,7 +24,7 @@ export class Ui{
                    ${data[i].short_description}</p>
                </div>
 
-                <div class="foot-card px-3 d-flex justify-content-between align-items-center bg-danger">
+                <div class="foot-card px-3 d-flex justify-content-between align-items-center">
                  
                  <span class="my-2 rounded-3 fw-bolder">${data[i].genre}</span>
                  <span class="my-2 rounded-3 fw-bolder">${data[i].platform}</span>
